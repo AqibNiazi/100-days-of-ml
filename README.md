@@ -11,7 +11,7 @@ Each day covers a specific topic, with notes, code, and resources.
 |-----|-------|------|
 | 1   | What is Machine Learning? | [Day 1](https://github.com/AqibNiazi/100-days-of-ml/tree/main/day1-what-is-ml) |
 | 2   | AI vs Machine Learning vs Deep Learning | [Day 2](https://github.com/AqibNiazi/100-days-of-ml/tree/main/day2-ai-vs-ml-vs-dl) |
-| 3   | *Coming Soon* | - |
+| 2   | Types of Machine Learning | [Day 3](https://github.com/AqibNiazi/100-days-of-ml/tree/main/day3-types-of-ml) |
 | ... | ... | ... |
 
 ---
