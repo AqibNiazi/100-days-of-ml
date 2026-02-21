@@ -2,8 +2,6 @@
 
 # 📘 Feature Scaling Notes
 
----
-
 ## 🔹 What is Feature Scaling?
 
 - **Definition:** Resizing different data values so the computer can compare them fairly.
@@ -13,16 +11,12 @@
   - Without scaling, the model thinks _salary_ is more important because the numbers are larger.
 - **Goal:** Put features on a similar scale so models don’t get biased by magnitude.
 
----
-
 ## 🔹 Why do we need Feature Scaling?
 
 - Prevents large-valued features from dominating small-valued ones.
 - Helps algorithms that rely on **distance** (e.g., KNN, SVM) or **gradient descent** (e.g., Linear Regression, Neural Networks).
 - Ensures faster convergence and better performance.
 - **Pipeline Note:** Feature scaling is usually the **last step** in feature engineering before training the model.
-
----
 
 ## 🔹 Types of Feature Scaling
 
@@ -52,8 +46,6 @@ where \(\mu\) = mean, \(\sigma\) = standard deviation.
 - Example: Test scores → transformed to show how far each student is from average.
 - More robust to outliers compared to min-max scaling.
 
----
-
 ## 🔹 Standardization
 
 - **Concept:** Transform data so mean = 0 and standard deviation = 1.
@@ -65,8 +57,6 @@ where \(\mu\) = mean, \(\sigma\) = standard deviation.
   - Average becomes 0
   - Most values lie between -3 and +3
   - Features are balanced → fair comparison
-
----
 
 ## 🔹 Example of Standardization
 
@@ -82,15 +72,11 @@ x' = \frac{x - 32}{10}
 - Age 33 → \((33 - 32)/10 = 0.1\)
 - After transformation, the new column has mean = 0 and std dev = 1.
 
----
-
 ## 🔹 Impact of Outliers
 
 - **Normalization:** Strongly affected by outliers (e.g., one huge salary can skew scaling).
 - **Standardization:** Less sensitive, but extreme outliers still distort mean and standard deviation.
 - **Tip:** Consider **Robust Scaling** (using median and IQR) when dataset has heavy outliers.
-
----
 
 ## 🔹 When to use Standardization?
 
@@ -108,16 +94,12 @@ x' = \frac{x - 32}{10}
 - Data is already in the same range
 - Using tree-based models (Decision Tree, Random Forest, XGBoost) → they don’t care about scale.
 
----
-
 ## 🔹 Geometric Intuition
 
 - Imagine plotting Age vs Salary for 500 people.
 - Without scaling: Salary dominates because of larger magnitude.
 - With standardization: Both features are centered at 0, scaled by their own variance.
 - Result: Fairer distance calculations and balanced learning.
-
----
 
 # ✅ Summary
 
