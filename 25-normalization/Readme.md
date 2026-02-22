@@ -1,22 +1,17 @@
 # Lecture 25: Normalization Notes
 
----
-
 ## 🔹 What is Normalization?
 
 - **Definition:** Normalization is the process of adjusting values measured on different scales to a common scale — typically between 0 and 1.
 - **Goal:** Ensure that all features contribute equally to model training and prevent large-scale features from dominating.
 - **Used in:** Algorithms sensitive to magnitude and distance like KNN, SVM, Logistic Regression, and Neural Networks.
 
----
 
 ## 🔹 Why Normalize?
 
 - Features like age (18–60) and salary (20,000–500,000) have vastly different ranges.
 - Without normalization, models may assume salary is more important due to larger numbers.
 - **Normalization ensures fair comparison and faster convergence.**
-
----
 
 ## 🔹 Types of Normalization
 
@@ -39,7 +34,7 @@ x' = \frac{30 - 18}{60 - 18} = \frac{12}{42} \approx 0.29
 - **Cons:** Sensitive to outliers.
 - **Use When:** Data has known min/max and no extreme outliers.
 
----
+
 
 ### 2. 📊 Mean Normalization
 
@@ -60,8 +55,6 @@ x' = \frac{30 - 32}{60 - 18} = \frac{-2}{42} \approx -0.048
 - **Cons:** Still affected by outliers.
 - **Use When:** You want centered data but still within a bounded range.
 
----
-
 ### 3. 📐 Max Absolute Scaling
 
 - **Formula:**
@@ -81,7 +74,6 @@ x' = \frac{250000}{500000} = 0.5
 - **Cons:** Doesn’t center data.
 - **Use When:** Data is already centered or sparse (e.g., text features).
 
----
 
 ### 4. 🛡️ Robust Scaling
 
@@ -104,8 +96,6 @@ x' = \frac{30 - 32}{20} = -0.1
 - **Cons:** Doesn’t guarantee fixed range.
 - **Use When:** Dataset contains extreme values or skewed distributions.
 
----
-
 ## 🔹 Comparison Table
 
 | Technique            | Formula                    | Range    | Sensitive to Outliers | Centered? | Best Use Case                |
@@ -115,7 +105,6 @@ x' = \frac{30 - 32}{20} = -0.1
 | Max Absolute Scaling | \(x /                      | max      | \)                    | [-1, 1]   | ✅ Yes                       | ❌ No | Sparse data |
 | Robust Scaling       | \((x - median)/IQR\)       | Variable | ❌ No                 | ✅ Yes    | Skewed or outlier-heavy data |
 
----
 
 # 🔄 Normalization vs Standardization
 
@@ -130,7 +119,6 @@ x' = \frac{30 - 32}{20} = -0.1
 | **Avoid When**            | Data has outliers or skewed distribution        | Using tree-based models (Decision Tree, RF)   |
 | **Effect on Data**        | Compresses values into a narrow range           | Balances data around average                  |
 
----
 
 ### 🧠 Summary
 
