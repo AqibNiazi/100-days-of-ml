@@ -2,8 +2,6 @@
 
 This repository contains structured notes on **Encoding Categorical Variables**, an essential **data preprocessing step** in Machine Learning. These notes explain data types, categorical subtypes, and common encoding techniques with clear examples. Content is adapted from Notion notes and is suitable for **students, interviews, and quick revision**.
 
----
-
 ## 🔹 Types of Data in Machine Learning
 
 ### 1️⃣ Numerical Data
@@ -21,8 +19,6 @@ Numerical data represents **quantitative values** and supports mathematical oper
 - Salary: 75,000
 - Temperature: 36.6
 
----
-
 ### 2️⃣ Categorical Data
 
 Categorical data represents **qualitative labels** describing categories or groups.
@@ -34,8 +30,6 @@ Categorical data represents **qualitative labels** describing categories or grou
 - Color: Red, Blue, Green
 
 Most ML algorithms **cannot directly process categorical data**, so encoding is required.
-
----
 
 ## 🔹 Types of Categorical Data
 
@@ -50,8 +44,6 @@ Most ML algorithms **cannot directly process categorical data**, so encoding is 
 - Color: Red, Blue, Green
 - Country: Pakistan, USA, UK
 
----
-
 ### 2️⃣ Ordinal Data
 
 - Categories with a **meaningful order**
@@ -63,15 +55,11 @@ Most ML algorithms **cannot directly process categorical data**, so encoding is 
 - Ratings: Poor < Average < Good < Excellent
 - Size: Small < Medium < Large
 
----
-
 ## 🔢 Why Encoding is Required
 
 - ML models require **numerical input**
 - Categorical values lack numeric meaning
 - Proper encoding preserves **relationships and order**
-
----
 
 ## 🔁 Label Encoding
 
@@ -97,8 +85,6 @@ Label Encoding converts each category into a **unique integer value**.
 - Introduces false ordering for nominal data
 - Some models may assume numeric relationships
 
----
-
 ## 🔢 Ordinal Encoding
 
 ### 📌 What is Ordinal Encoding?
@@ -123,8 +109,6 @@ Ordinal Encoding assigns numerical values **based on the true order** of categor
 
 - Assumes equal distance between categories
 
----
-
 ## 🆚 Label Encoding vs Ordinal Encoding
 
 | Aspect                    | Label Encoding    | Ordinal Encoding |
@@ -133,8 +117,6 @@ Ordinal Encoding assigns numerical values **based on the true order** of categor
 | Suitable For              | Nominal / Ordinal | Ordinal only     |
 | Risk of Misinterpretation | High (nominal)    | Lower            |
 | Interpretability          | Medium            | High             |
-
----
 
 ## 📝 Summary
 
