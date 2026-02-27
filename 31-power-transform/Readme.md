@@ -4,8 +4,6 @@
 
 This document explains power transformation techniques used in Machine Learning, specifically **Box-Cox** and **Yeo-Johnson** transformations, with formulas, examples, and comparisons.
 
----
-
 # 1️⃣ What is Power Transformation?
 
 A **Power Transformation** is a statistical technique used to:
@@ -22,8 +20,6 @@ A **Power Transformation** is a statistical technique used to:
 * Naive Bayes
 * Statistical modeling
 
-
-
 # 2️⃣ Why Do We Need Power Transformation?
 
 Many ML algorithms assume:
@@ -39,8 +35,6 @@ If data is highly skewed:
 
 Power transformations help correct these issues.
 
-
-
 # 3️⃣ Box-Cox Transformation
 
 ## 📌 What is Box-Cox?
@@ -50,7 +44,6 @@ The **Box-Cox transformation** converts data to make it closer to a normal distr
 ⚠ **Important Condition:**
 Data must be strictly positive (no zero or negative values).
 
----
 
 ## 📐 Box-Cox Formula
 
@@ -58,11 +51,6 @@ For a given $\lambda$ (lambda):
 
 If $\lambda \ne 0$:
 
-```markdown
-$$
-y(\lambda) = \frac{x^{\lambda} - 1}{\lambda}
-$$
-```
 
 $$
 y(\lambda) = \frac{x^{\lambda} - 1}{\lambda}
@@ -70,17 +58,11 @@ $$
 
 If $\lambda = 0$:
 
-```markdown
-$$
-y(\lambda) = \log(x)
-$$
-```
 
 $$
 y(\lambda) = \log(x)
 $$
 
----
 
 ## 🔍 What is Lambda ($\lambda$)?
 
@@ -95,7 +77,6 @@ Lambda determines the type of transformation:
 
 The algorithm automatically finds the best $\lambda$ value.
 
----
 
 ## 📊 Example of Box-Cox
 
@@ -116,7 +97,6 @@ After Box-Cox transformation (approximate values):
 * Reduced skewness
 * Distribution becomes more symmetric
 
----
 
 ## ✅ When to Use Box-Cox?
 
@@ -124,7 +104,6 @@ After Box-Cox transformation (approximate values):
 * Data is right-skewed
 * Working with linear models
 
----
 
 # 4️⃣ Yeo-Johnson Transformation
 
@@ -140,7 +119,6 @@ The **Yeo-Johnson transformation** is an extension of Box-Cox.
 
 This makes it more flexible than Box-Cox.
 
----
 
 ## 📐 Yeo-Johnson Formula
 
@@ -148,11 +126,6 @@ For $x \ge 0$:
 
 If $\lambda \ne 0$:
 
-```markdown
-$$
-y(\lambda) = \frac{(x + 1)^{\lambda} - 1}{\lambda}
-$$
-```
 
 $$
 y(\lambda) = \frac{(x + 1)^{\lambda} - 1}{\lambda}
@@ -160,11 +133,6 @@ $$
 
 If $\lambda = 0$:
 
-```markdown
-$$
-y(\lambda) = \log(x + 1)
-$$
-```
 
 $$
 y(\lambda) = \log(x + 1)
@@ -174,11 +142,6 @@ For $x < 0$:
 
 If $\lambda \ne 2$:
 
-```markdown
-$$
-y(\lambda) = - \frac{(-x + 1)^{2 - \lambda} - 1}{2 - \lambda}
-$$
-```
 
 $$
 y(\lambda) = - \frac{(-x + 1)^{2 - \lambda} - 1}{2 - \lambda}
@@ -186,17 +149,10 @@ $$
 
 If $\lambda = 2$:
 
-```markdown
-$$
-y(\lambda) = -\log(-x + 1)
-$$
-```
-
 $$
 y(\lambda) = -\log(-x + 1)
 $$
 
----
 
 # 5️⃣ Box-Cox vs Yeo-Johnson Comparison
 
@@ -208,7 +164,6 @@ $$
 | Flexibility             | Medium             | High             |
 | Common Usage            | Statistical models | ML preprocessing |
 
----
 
 # 6️⃣ Implementation in Scikit-Learn
 
@@ -221,8 +176,6 @@ pt_boxcox = PowerTransformer(method='box-cox')
 # Yeo-Johnson Transformation
 pt_yeo = PowerTransformer(method='yeo-johnson')
 ```
-
----
 
 # 7️⃣ When Should You Use Power Transform?
 
@@ -238,8 +191,6 @@ pt_yeo = PowerTransformer(method='yeo-johnson')
 * Using tree-based models (Random Forest, XGBoost)
   (They do not require normal distribution)
 
----
-
 # 📌 Key Takeaways
 
 * Power transformations reduce skewness.
@@ -248,19 +199,8 @@ pt_yeo = PowerTransformer(method='yeo-johnson')
 * Helps meet normality assumptions.
 * Improves performance of linear/statistical models.
 
----
-
 ## 📚 Summary
 
 Power transformations are important preprocessing techniques in Machine Learning.
 Understanding when to use **Box-Cox** or **Yeo-Johnson** can significantly improve model performance and statistical reliability.
-
----
-
-# 🎯 Important GitHub Tip
-
-If formulas don’t render:
-
-* Make sure your repo is public OR
-* Use a `.md` file directly in GitHub (not inside some preview tools)
 
