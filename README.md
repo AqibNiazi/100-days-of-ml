@@ -47,7 +47,9 @@ The goal is to build strong ML foundations and apply them to real datasets using
 | 29  | ML Pipelines                     | Building preprocessing + model pipelines using sklearn          | [29-ml-pipelines](https://github.com/AqibNiazi/applied-machine-learning/tree/main/29-ml-pipelines)                                                   |
 | 30  | Function Transformer | Exploring Function Transformer, applying custom transformations, and analyzing results on Titanic data | [30-function-transformer](https://github.com/AqibNiazi/applied-machine-learning/tree/main/30-function-transformer) |
 | 31  | Power Transformer | Exploring Box-Cox and Yeo-Johnson transformations and analyzing their impact on skewed features in Titanic data | [31-power-transform](https://github.com/AqibNiazi/applied-machine-learning/tree/main/31-power-transform) |
-| 32  | Binning and Binarization Transformer | Applying discretization (binning) and binarization techniques and analyzing their effect on Titanic dataset features | [32-binning-and-binarization](https://github.com/AqibNiazi/applied-machine-learning/tree/main/32-binning-and-binarization) |
+| 32  | Binning and Binarization Transformer | Applying discretization (binning) and binarization techniques | [32-binning-and-binarization](https://github.com/AqibNiazi/applied-machine-learning/tree/main/32-binning-and-binarization) |
+| 33  | Handling Mixed Variables | Engineering structured features from mixed variables | [33-handling-mixed-variables](https://github.com/AqibNiazi/applied-machine-learning/tree/main/33-handling-mixed-variables) |
+| 34  | Handling Date and Time | Practical date-time feature engineering techniques | [34-handling-date-and-time](https://github.com/AqibNiazi/applied-machine-learning/tree/main/34-handling-date-and-time) |
 | ... | ...                              | Ongoing daily learning                                          | ...                                                                                                                                                  |
 
 ## 🛠 Tools & Technologies
