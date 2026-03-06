@@ -50,6 +50,7 @@ The goal is to build strong ML foundations and apply them to real datasets using
 | 32  | Binning and Binarization Transformer | Applying discretization (binning) and binarization techniques | [32-binning-and-binarization](https://github.com/AqibNiazi/applied-machine-learning/tree/main/32-binning-and-binarization) |
 | 33  | Handling Mixed Variables | Engineering structured features from mixed variables | [33-handling-mixed-variables](https://github.com/AqibNiazi/applied-machine-learning/tree/main/33-handling-mixed-variables) |
 | 34  | Handling Date and Time | Practical date-time feature engineering techniques | [34-handling-date-and-time](https://github.com/AqibNiazi/applied-machine-learning/tree/main/34-handling-date-and-time) |
+| 35  | Complete Case Analysis | Handling missing values using complete case analysis | [35-complete-case-analysis](https://github.com/AqibNiazi/applied-machine-learning/tree/main/35-complete-case-analysis) |
 | ... | ...                              | Ongoing daily learning                                          | ...                                                                                                                                                  |
 
 ## 🛠 Tools & Technologies
