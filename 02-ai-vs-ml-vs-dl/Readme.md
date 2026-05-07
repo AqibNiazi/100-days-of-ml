@@ -6,7 +6,6 @@
 - **Machine Learning (ML):** A subset of AI focused on algorithms that learn from data to make decisions or predictions.
 - **Deep Learning (DL):** A subset of ML that uses multi-layered neural networks to model complex patterns in data.
 
----
 
 ## Areas of AI
 
@@ -16,7 +15,6 @@
   _Example:_ Medical diagnosis systems.
 - **Why Expert Systems Failed:** They were brittle, hard to scale, and required extensive manual rule creation, limiting adaptability.
 
----
 
 ## How Machine Learning Differs from Previous Systems
 
@@ -24,7 +22,6 @@
 - It adapts to new data and can improve over time.
 - _Example:_ Instead of coding rules for spam detection, ML models learn from examples of spam and non-spam emails.
 
----
 
 ## Deep Learning and Its Importance
 
@@ -32,7 +29,6 @@
 - Deep Learning overcomes these by using deep neural networks that automatically learn hierarchical features.
 - DL is better than traditional ML in tasks like image recognition, natural language processing, and speech recognition.
 
----
 
 ## Simple Applications of Deep Learning
 
@@ -40,7 +36,6 @@
 - Voice assistants (e.g., Siri, Alexa).
 - Autonomous vehicles.
 
----
 
 ## Summary
 
