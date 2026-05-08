@@ -2,7 +2,6 @@
 
 This lecture explores the different types of Machine Learning (ML), both in short notes and detailed explanations.
 
----
 
 ## 3. Types of Machine Learning (Short Notes)
 
@@ -15,7 +14,6 @@ Supervised learning involves training a model on labeled data, where the input-o
 - **Classification:** Predicts discrete categories.  
   _Example:_ Email spam detection (spam or not spam), handwriting recognition.
 
----
 
 ### 3.2 Unsupervised Learning
 
@@ -30,7 +28,6 @@ Unsupervised learning deals with unlabeled data, where the model tries to find h
 - **Association Rule Learning:** Finds relationships between variables.  
   _Example:_ Market basket analysis.
 
----
 
 ### 3.3 Semi-Supervised Learning
 
@@ -38,7 +35,6 @@ Semi-supervised learning uses a small amount of labeled data along with a large 
 
 - _Example:_ Google Photos grouping faces with limited labeled images.
 
----
 
 ### 3.4 Reinforcement Learning
 
@@ -46,7 +42,6 @@ Reinforcement learning trains an agent to make a sequence of decisions by reward
 
 - _Example:_ Training a robot to navigate a maze or teaching an AI to play chess/Go.
 
----
 
 ## 3. Types of Machine Learning (Detailed Notes)
 
@@ -74,7 +69,6 @@ Classification predicts categories (labels) instead of numbers.
 - Output = Number → Regression
 - Output = Category → Classification
 
----
 
 ### 3.2 Unsupervised Learning
 
@@ -112,21 +106,18 @@ Identifies unusual or abnormal data points.
 Finds relationships between items.  
 _Example:_ People who buy bread often also buy butter.
 
----
 
 ### 3.3 Semi-Supervised Learning
 
 Uses a mix of labeled and unlabeled data.  
 _Example:_ Google Photos face recognition with limited labeled images.
 
----
 
 ### 3.4 Reinforcement Learning
 
 Learning by trial and error, with rewards and punishments guiding behavior.  
 _Example:_ Learning to ride a bicycle or training AI to play games.
 
----
 
 ## Summary
 
