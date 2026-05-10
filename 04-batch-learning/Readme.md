@@ -2,17 +2,15 @@
 
 A concise and well-structured overview of **Batch Machine Learning**, covering its core concepts, challenges, and disadvantages. These notes are ideal for **students, interview preparation, and quick revision**, and are adapted from my Notion study sheet.
 
----
 
-## 🚀 What is Batch Machine Learning?
+## What is Batch Machine Learning?
 
 Batch Machine Learning (also known as **Offline Learning**) is a learning paradigm where a model is trained on a **fixed, historical dataset** all at once. Once trained, the model is deployed and **does not update itself automatically** when new data arrives.
 
 To incorporate new data, the model must be **retrained on a new batch** of data.
 
----
 
-## 🧠 Key Characteristics
+## Key Characteristics
 
 - Training is performed on **historical data**
 - Model remains **static after deployment**
@@ -20,9 +18,8 @@ To incorporate new data, the model must be **retrained on a new batch** of data.
 - Requires **complete dataset access** before training
 - Widely used in traditional ML pipelines
 
----
 
-## ⚙️ Typical Workflow
+## Typical Workflow
 
 1. Data collection
 2. Data cleaning & preprocessing
@@ -31,42 +28,40 @@ To incorporate new data, the model must be **retrained on a new batch** of data.
 5. Model deployment
 6. Periodic retraining with new data
 
----
 
-## 🧩 Problems in Batch Machine Learning
+## Problems in Batch Machine Learning
 
-### ❌ 1. No Real-Time Learning
+### 1. No Real-Time Learning
 
 - Cannot learn from new data immediately
 - Full retraining is required to update the model
 
-### ⏳ 2. High Retraining Cost
+### 2. High Retraining Cost
 
 - Computationally expensive for large datasets
 - Requires significant time and resources
 
-### 🧠 3. Concept Drift
+### 3. Concept Drift
 
 - Data distribution changes over time
 - Model performance degrades if not retrained
 
-### 🗂️ 4. Large Storage Requirements
+### 4. Large Storage Requirements
 
 - Entire historical dataset must be stored
 - Becomes challenging for big data systems
 
-### 🚫 5. Poor Fit for Streaming Data
+### 5. Poor Fit for Streaming Data
 
 - Not suitable for real-time or continuous data streams
 
-### 🧪 6. Long Feedback Loop
+### 6. Long Feedback Loop
 
 - Errors are discovered late
 - No immediate correction mechanism
 
----
 
-## ⚠️ Disadvantages of Batch Machine Learning
+## Disadvantages of Batch Machine Learning
 
 - ❌ **Low adaptability** to new data
 - ⏱️ **Delayed model updates**
@@ -74,9 +69,8 @@ To incorporate new data, the model must be **retrained on a new batch** of data.
 - 📉 **Risk of stale models** over time
 - 📦 **Scalability issues** with very large datasets
 
----
 
-## ✅ When to Use Batch Machine Learning
+## When to Use Batch Machine Learning
 
 Batch Machine Learning works best when:
 
@@ -91,9 +85,7 @@ Batch Machine Learning works best when:
 - Spam detection (offline retraining)
 - Recommendation systems (periodic updates)
 
----
-
-## 🔁 Batch ML vs Online ML
+## Batch ML vs Online ML
 
 | Feature                | Batch ML | Online ML      |
 | ---------------------- | -------- | -------------- |
@@ -103,9 +95,7 @@ Batch Machine Learning works best when:
 | Retraining Cost        | High     | Low per update |
 | Concept Drift Handling | Poor     | Better         |
 
----
-
-## 📝 Summary
+## Summary
 
 Batch Machine Learning is simple and stable but lacks flexibility. It is best suited for **static environments** where data evolves slowly and immediate learning is not required.
 
