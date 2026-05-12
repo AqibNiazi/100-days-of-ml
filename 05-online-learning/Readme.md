@@ -2,7 +2,6 @@
 
 This repository contains concise and structured notes on **Online Learning**, a machine learning paradigm designed for **streaming, large-scale, and continuously evolving data**. These notes are adapted from my Notion study material and are suitable for **students, interviews, and quick revision**.
 
----
 
 ## 🚀 What is Online Learning?
 
@@ -10,7 +9,6 @@ Online Learning is a machine learning approach where the model **updates itself 
 
 This approach is ideal when datasets are **too large to fit into memory** or when data is generated continuously.
 
----
 
 ## 🧠 Key Characteristics
 
@@ -20,7 +18,6 @@ This approach is ideal when datasets are **too large to fit into memory** or whe
 - Fast adaptation to new patterns
 - Better handling of **concept drift**
 
----
 
 ## ⏱️ When to Use Online Learning
 
@@ -40,7 +37,6 @@ Online Learning is preferred when:
 - Online advertising (CTR prediction)
 - IoT and sensor data processing
 
----
 
 ## ⚙️ How to Implement Online Learning
 
@@ -64,7 +60,6 @@ Online Learning is preferred when:
 - Sliding windows
 - Decay factors (recent data weighted more)
 
----
 
 ## 📉 Learning Rate
 
@@ -83,7 +78,6 @@ The **learning rate (η)** controls how much model parameters change when new da
 - Time-decayed learning rate
 - Adaptive optimizers (AdaGrad, RMSProp, Adam)
 
----
 
 ## 💾 Out-of-Core Learning
 
@@ -101,7 +95,6 @@ Out-of-Core Learning enables training on datasets that **do not fit into memory*
 - Minimal memory usage
 - Suitable for big data environments
 
----
 
 ## ⚠️ Disadvantages of Online Learning
 
@@ -111,7 +104,6 @@ Out-of-Core Learning enables training on datasets that **do not fit into memory*
 - ❌ Risk of catastrophic forgetting
 - ❌ Complex evaluation compared to batch learning
 
----
 
 ## 🔁 Online Learning vs Batch Learning
 
@@ -123,12 +115,9 @@ Out-of-Core Learning enables training on datasets that **do not fit into memory*
 | Memory Usage  | Low             | High           |
 | Concept Drift | Better Handling | Poor Handling  |
 
----
 
 ## 📝 Summary
 
 Online Learning is powerful for **dynamic and real-time systems**, offering adaptability and scalability. However, it requires careful tuning, monitoring, and evaluation to avoid instability.
 
----
 
-⭐ If you find these notes useful, consider starring the repository!
