@@ -2,19 +2,15 @@
 
 This repository provides clear and concise notes on **Instance-Based Learning** and **Model-Based Learning**, two fundamental learning paradigms in Machine Learning. The content is adapted from structured Notion notes and is suitable for **students, interviews, and quick revision**.
 
----
+## Instance-Based Learning (Memory-Based Learning)
 
-## 🔹 Instance-Based Learning (Memory-Based Learning)
-
-### 📌 What is Instance-Based Learning?
+### What is Instance-Based Learning?
 
 Instance-Based Learning is a learning approach where the model **stores training instances** and makes predictions by **comparing new inputs with stored examples**. There is no explicit model built during training.
 
 Learning happens at **prediction time**, which is why it is also called **Lazy Learning**.
 
----
-
-### 🧠 Key Characteristics
+### Key Characteristics
 
 - Stores most or all training data
 - No explicit training phase
@@ -22,9 +18,7 @@ Learning happens at **prediction time**, which is why it is also called **Lazy L
 - High computation during prediction
 - Sensitive to noise and irrelevant features
 
----
-
-### 📍 Example: k-Nearest Neighbors (k-NN)
+### Example: k-Nearest Neighbors (k-NN)
 
 **How it works:**
 
@@ -38,35 +32,27 @@ Learning happens at **prediction time**, which is why it is also called **Lazy L
 - Recommendation systems
 - Handwritten digit recognition
 
----
-
-### ✅ Advantages
+### Advantages
 
 - Simple and intuitive
 - No training time required
 - Easily adapts to new data
 
----
-
-### ❌ Disadvantages
+### Disadvantages
 
 - High memory consumption
 - Slow prediction on large datasets
 - Sensitive to noisy data
 
----
-
 ## 🔹 Model-Based Learning
 
-### 📌 What is Model-Based Learning?
+### What is Model-Based Learning?
 
 Model-Based Learning builds an **explicit mathematical or statistical model** from training data. The learned model is then used to make predictions on unseen data.
 
 Learning happens during the **training phase**, and prediction is fast.
 
----
-
-### 🧠 Key Characteristics
+### Key Characteristics
 
 - Builds a generalized model
 - Computationally intensive training phase
@@ -74,9 +60,7 @@ Learning happens during the **training phase**, and prediction is fast.
 - Low memory usage after training
 - Better generalization capability
 
----
-
-### 📍 Example: Linear Regression
+### Example: Linear Regression
 
 **How it works:**
 
@@ -89,24 +73,19 @@ Learning happens during the **training phase**, and prediction is fast.
 - House price prediction
 - Sales forecasting
 
----
-
-### ✅ Advantages
+### Advantages
 
 - Fast predictions
 - Requires less memory
 - More robust to noise
 
----
-
-### ❌ Disadvantages
+### Disadvantages
 
 - Requires retraining to incorporate new data
 - Model assumptions may reduce flexibility
 
----
 
-## 🔁 Instance-Based vs Model-Based Learning
+## Instance-Based vs Model-Based Learning
 
 | Aspect            | Instance-Based Learning    | Model-Based Learning                    |
 | ----------------- | -------------------------- | --------------------------------------- |
@@ -118,14 +97,9 @@ Learning happens during the **training phase**, and prediction is fast.
 | Noise Sensitivity | High                       | Lower                                   |
 | Examples          | k-NN, Case-Based Reasoning | Linear Regression, SVM, Neural Networks |
 
----
-
-## 📝 Summary
+## Summary
 
 - **Instance-Based Learning** relies on memorization and similarity measures
 - **Model-Based Learning** relies on abstraction and generalization
 - The choice depends on **dataset size, memory constraints, and inference speed requirements**
 
----
-
-⭐ If you find this helpful, consider starring the repository!
