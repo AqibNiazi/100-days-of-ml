@@ -2,45 +2,41 @@
 
 This repository documents the **key challenges faced in Machine Learning systems**, covering issues from **data collection to deployment and cost considerations**. The content is adapted from structured Notion notes and is suitable for **students, interviews, and quick revision**.
 
----
-
 ## 1️⃣ Data Collection
 
-### 📌 Description
+### Description
 
 Data collection is the foundation of any Machine Learning system. If the collected data is incomplete, outdated, or irrelevant, even the best algorithms will fail.
 
-### ⚠️ Challenges
+### Challenges
 
 - Data spread across multiple sources
 - Privacy, legal, and ethical constraints
 - High cost of acquiring quality data
 - Rapidly changing data over time
 
----
 
 ## 2️⃣ Insufficient Data / Insufficient Labeled Data
 
-### 📌 Description
+### Description
 
 Most ML algorithms, especially supervised learning models, require **large amounts of labeled data** to perform well.
 
-### ⚠️ Challenges
+### Challenges
 
 - Manual labeling is expensive and time-consuming
 - Small datasets lead to poor generalization
 - Models become unstable and unreliable
 
-### 📉 Impact
+### Impact
 
 - Overfitting
 - Low performance on unseen data
 
----
 
 ## 3️⃣ Non-Representative Data
 
-### 📌 Description
+### Description
 
 Training data must accurately represent real-world data. If the dataset is biased or incomplete, the model will learn incorrect patterns.
 
@@ -59,127 +55,117 @@ Training data must accurately represent real-world data. If the dataset is biase
 - Biased predictions
 - Poor real-world performance
 
----
 
 ## 4️⃣ Poor Quality Data
 
-### 📌 Description
+### Description
 
 Poor-quality data introduces noise and errors into the learning process.
 
-### ⚠️ Examples
+### Examples
 
 - Missing values
 - Noisy or incorrect labels
 - Outliers
 - Duplicate or inconsistent records
 
-### 📉 Impact
+### Impact
 
 - Misleading patterns
 - Reduced model accuracy
 - Increased preprocessing effort
 
----
 
 ## 5️⃣ Irrelevant Features
 
-### 📌 Description
+### Description
 
 Not all features contribute useful information. Irrelevant or redundant features can confuse the model.
 
-### ⚠️ Challenges
+### Challenges
 
 - Curse of dimensionality
 - Increased training time
 - Reduced interpretability
 
-### ✅ Common Solutions
+### Common Solutions
 
 - Feature selection
 - Feature engineering
 - Dimensionality reduction
 
----
 
 ## 6️⃣ Overfitting
 
-### 📌 Description
+### Description
 
 Overfitting occurs when a model learns noise and details in the training data rather than general patterns.
 
-### ⚠️ Symptoms
+### Symptoms
 
 - Very high training accuracy
 - Poor validation or test accuracy
 
-### 🔍 Causes
+### Causes
 
 - Complex models
 - Small datasets
 - Too many features
 
----
-
 ## 7️⃣ Underfitting
 
-### 📌 Description
+### Description
 
 Underfitting occurs when a model is too simple to capture underlying data patterns.
 
-### ⚠️ Symptoms
+### Symptoms
 
 - Poor performance on both training and test data
 
-### 🔍 Causes
+### Causes
 
 - Oversimplified models
 - Insufficient training time
 - Poor feature selection
 
----
 
 ## 8️⃣ Software Integration
 
-### 📌 Description
+### Description
 
 Integrating ML models into real-world software systems is often challenging.
 
-### ⚠️ Challenges
+### Challenges
 
 - Compatibility with existing systems
 - Model versioning and updates
 - Monitoring and maintenance
 - Latency and scalability issues
 
----
-
 ## 9️⃣ Offline Learning / Deployment Challenges
 
-### 📌 Description
+### Description
 
 Models trained using offline (batch) learning may struggle in dynamic production environments.
 
-### ⚠️ Challenges
+### Challenges
 
 - Model becomes outdated over time
 - Retraining is costly and slow
 - Difficulty handling real-time data
 
-### 📉 Impact
+### Impact
 
 - Performance degradation
 - Delayed response to data changes
 
----
-
 ## 🔟 Cost Involved
 
-### 📌 Description
+### Description
 
 Machine Learning systems involve significant costs beyond model training.
 
-### 💰 Cost Factors
+### Cost Factors
 
 - Data collection and labeling
 - Computational resources (GPUs, TPUs)
@@ -187,12 +173,8 @@ Machine Learning systems involve significant costs beyond model training.
 - Deployment and maintenance
 - Skilled engineering and data science workforce
 
----
-
-## 📝 Summary
+## Summary
 
 Machine Learning challenges span the **entire lifecycle**—from data acquisition to deployment and maintenance. Successfully addressing these challenges requires a balance of **data quality, model selection, engineering practices, and cost management**.
 
----
 
-⭐ If you find this repository helpful, consider starring it!
