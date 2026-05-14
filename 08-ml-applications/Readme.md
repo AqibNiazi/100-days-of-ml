@@ -2,9 +2,8 @@
 
 This repository provides **structured notes on real-world Machine Learning (ML) applications in B2B domains**. The content is ideal for **students, interviews, ML fundamentals revision, and academic preparation**.
 
----
 
-## 📌 What is B2B Machine Learning?
+## What is B2B Machine Learning?
 
 In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 
@@ -13,7 +12,6 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 - Reduce cost and risk
 - Improve efficiency across industries
 
----
 
 ## 1️⃣ Retail (Amazon / Big Bazaar)
 
@@ -25,13 +23,12 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 - **Customer Segmentation** – Group customers by behavior
 - **Fraud Detection** – Detect fake orders or payment fraud
 
-### 🎯 Business Impact
+### Business Impact
 
 - Increased sales and retention
 - Optimized inventory management
 - Reduced operational costs
 
----
 
 ## 2️⃣ Banking and Finance
 
@@ -43,13 +40,12 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 - **Customer Churn Prediction** – Identify customers likely to leave
 - **Chatbots & Virtual Assistants** – Automated customer support
 
-### 🎯 Business Impact
+### Business Impact
 
 - Reduced financial risk
 - Faster and more accurate decisions
 - Improved customer trust
 
----
 
 ## 3️⃣ Transportation (OLA / Uber)
 
@@ -61,13 +57,12 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 - **Demand Prediction** – Identify high-demand locations
 - **Fraud Detection** – Detect fake rides or misuse
 
-### 🎯 Business Impact
+### Business Impact
 
 - Reduced wait times
 - Higher driver utilization
 - Better customer experience
 
----
 
 ## 4️⃣ Manufacturing (Tesla)
 
@@ -79,13 +74,12 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 - **Supply Chain Optimization** – Forecast delays and demand
 - **Robotics Automation** – Smart manufacturing robots
 
-### 🎯 Business Impact
+### Business Impact
 
 - Reduced downtime
 - Lower production costs
 - Improved product quality
 
----
 
 ## 5️⃣ Consumer Internet (Twitter / X)
 
@@ -97,15 +91,14 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 - **Sentiment Analysis** – Analyze public opinion
 - **Ad Targeting** – Personalized advertisements
 
-### 🎯 Business Impact
+### Business Impact
 
 - Increased user engagement
 - Safer online platform
 - Higher ad revenue
 
----
 
-## 📊 Summary Table
+## Summary Table
 
 | Industry          | Key ML Applications                 |
 | ----------------- | ----------------------------------- |
@@ -115,7 +108,6 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 | Manufacturing     | Predictive maintenance, automation  |
 | Consumer Internet | Feed ranking, spam detection        |
 
----
 
 ## ✅ Key Takeaways
 
@@ -123,6 +115,3 @@ In **Business-to-Business (B2B)** systems, Machine Learning is used to:
 - ML enables businesses to **scale, optimize, and reduce risk**
 - Real-world ML systems integrate **data, models, and deployment pipelines**
 
----
-
-⭐ If you find this repository useful, consider giving it a star!
