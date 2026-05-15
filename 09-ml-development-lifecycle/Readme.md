@@ -2,9 +2,8 @@
 
 This repository contains structured notes on the **Machine Learning Development Life Cycle**, covering the complete end-to-end process of building, deploying, and improving Machine Learning systems in real-world applications.
 
----
 
-## 📌 What is the ML Development Life Cycle?
+## What is the ML Development Life Cycle?
 
 The **Machine Learning Development Life Cycle (MLDLC)** defines a systematic approach to:
 
@@ -15,7 +14,6 @@ The **Machine Learning Development Life Cycle (MLDLC)** defines a systematic app
 
 ML systems are **iterative**, not one-time solutions.
 
----
 
 ## 1️⃣ Frame the Problem
 
@@ -34,7 +32,6 @@ Clearly define the business problem and determine whether Machine Learning is th
 
 - Clear problem statement
 
----
 
 ## 2️⃣ Gathering Data
 
@@ -60,7 +57,6 @@ Collect relevant data required to solve the problem.
 
 - Raw dataset
 
----
 
 ## 3️⃣ Data Preprocessing
 
@@ -79,7 +75,6 @@ Clean and transform raw data into a usable format.
 
 - Cleaned dataset
 
----
 
 ## 4️⃣ Exploratory Data Analysis (EDA)
 
@@ -99,7 +94,6 @@ Analyze data to understand patterns, trends, and relationships.
 - Discover insights
 - Validate assumptions
 
----
 
 ## 5️⃣ Feature Engineering and Selection
 
@@ -127,7 +121,6 @@ Select the most relevant features.
 
 - Optimized feature set
 
----
 
 ## 6️⃣ Model Training, Evaluation, and Selection
 
@@ -151,7 +144,6 @@ Train multiple models and select the best-performing one.
 
 - Selected trained model
 
----
 
 ## 7️⃣ Model Deployment
 
@@ -176,7 +168,6 @@ Deploy the trained model to production for real-world use.
 
 - Production-ready ML system
 
----
 
 ## 8️⃣ Training (Continuous Learning)
 
@@ -194,7 +185,6 @@ Continuously retrain the model with new data to maintain performance.
 
 - Updated model
 
----
 
 ## 9️⃣ Optimization
 
@@ -215,7 +205,6 @@ Improve model accuracy, efficiency, and cost-effectiveness.
 - Lower latency
 - Reduced computational cost
 
----
 
 ## 🔄 ML Life Cycle Flow
 
@@ -225,7 +214,6 @@ Problem Framing → Data Collection → Preprocessing → EDA
 → Deployment → Continuous Training → Optimization
 ```
 
----
 
 ## ✅ Key Takeaways
 
@@ -233,6 +221,4 @@ Problem Framing → Data Collection → Preprocessing → EDA
 - Data quality is more important than model complexity
 - Continuous monitoring and optimization are essential for production ML
 
----
 
-⭐ If you find this repository useful, consider starring it!
